@@ -1,0 +1,17 @@
+include setup.py
+
+# C sources
+include src/libvecash/internal.c
+include src/libvecash/sha3.c
+include src/libvecash/util.c
+include src/python/core.c
+
+# Headers
+include src/libvecash/compiler.h
+include src/libvecash/data_sizes.h
+include src/libvecash/endian.h
+include src/libvecash/vecash.h
+include src/libvecash/fnv.h
+include src/libvecash/internal.h
+include src/libvecash/sha3.h
+include src/libvecash/util.h

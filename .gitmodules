@@ -1,0 +1,3 @@
+[submodule "cmd/mist/assets/ext/vector.js"]
+	path = cmd/mist/assets/ext/vector.js
+	url = https://github.com/vector/web3.js
